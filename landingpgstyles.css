@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=raleway');
+@import url('https://fonts.googleapis.com/css?family=oswald');
+html,body{
+	/*reset style so that browser gets rid of garbage styles already present*/
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+.intro{
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: url(file:///C:/Users/Ptcl/Desktop/WEB%20WORKS/alone-high-tatras-lake-93827.jpg) no-repeat center center fixed;
+	display: table;
+	top:0;
+  	background-size: cover;
+}
+
+.inner{
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: 100%;
+	text-align: center;
+}
+.content h1{
+	font-family: 'raleway', sans-serif;
+	color: #F9F3F4;
+	font-size: 400%;
+}
+.btn{
+	border-radius: 9px;
+	font-family: "oswald",sans-serif;
+	background-color: #fae596;
+	color: #036A81;
+	font-size: 135%;
+	padding: 10px 20px;
+	border-bottom: solid;#036A81 3px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.btn:hover{
+	color: #fff;
+	border: solid; #fff 3px;
+}
+p {
+	font-size: 160%;
+	line-height: 210%;
+	text-align: justify;
+	margin: 3%;
+	font-family: sans-serif;
+	
+}
